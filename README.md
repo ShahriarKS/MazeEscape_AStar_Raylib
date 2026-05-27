@@ -42,6 +42,10 @@ Enemies use **A* Pathfinding** to intelligently chase the player.
 
 ---
 
+## Demo
+
+![Game Screenshot](game_ss.png)
+
 ## 🕹️ Controls
 
 | Key | Action |
