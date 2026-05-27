@@ -151,6 +151,6 @@ Possible upgrades:
 
 ## 👨‍💻 Author
 
-Built by **[Your Name]**
+Built by **Shahriar Kabir Saikat**
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/ShahriarKS
