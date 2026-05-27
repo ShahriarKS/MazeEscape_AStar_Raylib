@@ -1,29 +1,156 @@
-# Maze Escape Game using A* Pathfinding
+# 🧠 MazeEscape_AStar_Raylib
 
-A 2D Raylib + C++ game where the player escapes a maze while an enemy uses A* pathfinding to chase the player.
+A simple **2D Maze Survival Game** built using **C++** and **Raylib**.
 
-## DSA Used
-- 2D Grid / Matrix
-- Graph traversal concept
-- A* Search Algorithm
-- Priority Queue
-- Vector / Pair
-- Collision with grid tiles
+The project demonstrates:
 
-## Controls
-- Arrow Keys / WASD: Move player
-- R: Restart
-- ESC: Exit
+- Grid-based maze movement
+- A* Pathfinding enemy AI
+- Multiple enemies
+- Random food spawning system
+- Score system
+- Timer-based gameplay mechanics
 
-## Build
+---
 
-Use MSYS2 UCRT64 terminal inside this folder:
+## 🎮 Gameplay
+
+You are trapped inside a maze.
+
+Your goal:
+
+- Survive enemy pursuit
+- Move through the maze
+- Collect bonus food for extra score
+- Avoid getting caught
+
+Enemies use **A* Pathfinding** to intelligently chase the player.
+
+---
+
+## ✨ Features
+
+✅ Grid-Based Maze System  
+✅ Player Movement (Arrow Keys / WASD)  
+✅ A* Enemy Pathfinding AI  
+✅ Second Enemy Activation System  
+✅ Random Food Spawn System  
+✅ Food Expiration Timer (4 seconds)  
+✅ Score System (+250 food bonus)  
+✅ Restart Functionality  
+✅ Raylib Graphics Rendering
+
+---
+
+## 🕹️ Controls
+
+| Key | Action |
+|-----|-----|
+| W / ↑ | Move Up |
+| S / ↓ | Move Down |
+| A / ← | Move Left |
+| D / → | Move Right |
+| R | Restart Game |
+
+---
+
+## 📁 Project Structure
+
+```txt
+MazeEscape_AStar_Raylib/
+│
+├── include/
+│   ├── AStar.h
+│   ├── Constants.h
+│   ├── Enemy.h
+│   ├── Game.h
+│   ├── Maze.h
+│   ├── Node.h
+│   └── Player.h
+│
+├── src/
+│   ├── AStar.cpp
+│   ├── Enemy.cpp
+│   ├── Game.cpp
+│   ├── Maze.cpp
+│   ├── Player.cpp
+│   └── main.cpp
+│
+├── MazeEscape.exe
+├── README.md
+```
+
+---
+
+## ⚙️ Requirements
+
+You need:
+
+- **C++20 Compiler**
+- **Raylib**
+- **MSYS2 UCRT64** (Recommended for Windows)
+- **VS Code** (optional)
+
+---
+
+## 🔧 Build & Run
+
+### Windows (MSYS2)
+
+Compile:
 
 ```bash
 g++ src/*.cpp -o MazeEscape.exe -Iinclude -lraylib -lopengl32 -lgdi32 -lwinmm
-cp /ucrt64/bin/libraylib.dll .
+```
+
+Run:
+
+```bash
 ./MazeEscape.exe
 ```
 
-## GitHub Suggested Title
-Maze Escape Game using A* Pathfinding in C++ Raylib
+---
+
+## 🧩 Technologies Used
+
+- C++
+- Raylib
+- A* Search Algorithm
+- Object Oriented Programming
+
+---
+
+## 📚 Concepts Demonstrated
+
+This project practices:
+
+- OOP Design
+- Class Separation
+- Game Loop Architecture
+- AI Pathfinding
+- Grid Systems
+- Collision Logic
+- Timing Systems
+- Random Events
+
+---
+
+## 🚀 Future Improvements
+
+Possible upgrades:
+
+- Procedural Maze Generation
+- Powerups
+- Difficulty Levels
+- Sound Effects
+- Animations
+- Better Enemy Behaviors
+- Save System
+
+---
+
+## 👨‍💻 Author
+
+Built by **[Your Name]**
+
+GitHub: https://github.com/yourusername
